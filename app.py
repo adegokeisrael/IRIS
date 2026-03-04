@@ -74,5 +74,6 @@ if submit_button:
 	st.subheader("Prediction Result")
 	st.success(f" Predicted species: {prediction[0]}")
 	
-	st.subheader("Prediction Probability)"
+	st.subheader("Prediction Probability")
 	st.write(probabilities)
+
