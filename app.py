@@ -6,7 +6,7 @@ import joblib
 # LOAD SAVED MODEL
 # ============================================================
 
-model = joblib.load("random_forest_iris_model.pkl")
+model = joblib.load("rfiris.pkl")
 
 # ============================================================
 # PAGE CONFIG
@@ -76,4 +76,5 @@ if submit_button:
 
     st.subheader("Prediction Probability")
     st.write(probabilities)
+
 
