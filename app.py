@@ -69,12 +69,13 @@ if submit_button:
     })
 
     prediction = model.predict(input_data)
-    probabilities = model.predict_proba(input_data)
+    #probabilities = model.predict_proba(input_data)
 
     st.subheader("Prediction Result")
     st.success(f"🌼 Predicted Species: {prediction[0]}")
 
-    st.subheader("Prediction Probability")
-    st.write(probabilities)
+    #st.subheader("Prediction Probability")
+    #st.write(probabilities)
+
 
 
